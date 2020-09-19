@@ -1,0 +1,37 @@
+.item {
+    margin: 10px;
+    background-color: rgb(209, 64, 93);
+    border-radius: 4px;
+    height: 50px;
+    display: flex;
+    position: relative;
+}
+.p {
+    text-align: left;
+    padding-left: 10px;
+    width: 100%;
+}
+.change {
+    background-color: transparent;
+    border: 0;
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+.button {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    text-align: center;
+    right: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+    width: 60px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid rgb(92, 8, 8);
+    background-color: #ff0000;
+}
+.button:focus {
+    outline: none;
+}
