@@ -1,47 +1,47 @@
 .head {
-    text-align: center;
+  text-align: center;
 }
 h3 {
-    font-size: 25px;
-    cursor: pointer;
+  font-size: 25px;
+  cursor: pointer;
 }
 .main {
-    background-color: #3f3130;
-    min-height: 450px;
-    text-align: center;
-    max-width: 500px;
-    width: 80%;
-    margin-top: 10vh;
-    border: 2px solid rgb(51, 26, 73);
-    border-radius: 7px;
-    margin: 40px auto;
-    padding: 40px;
-    height: 500px;
+  background-color: #3f3130;
+  min-height: 450px;
+  text-align: center;
+  max-width: 500px;
+  width: 85%;
+  margin-top: 10vh;
+  border: 2px solid rgb(51, 26, 73);
+  border-radius: 7px;
+  margin: 40px auto;
+  padding: 40px;
+  height: 500px;
 }
 .header {
-    margin: 0;
+  margin: 0;
+  width: 100%;
 }
 .input {
-    font-size: 19px;
-    height: 60px;
-    width: 60%;
-    margin: 7px;
-    margin-right: 20px;
-    border-radius: 6px;
-    outline: none;
-    background-color: rgb(148, 65, 226);
-    border: 2px solid rgb(67, 29, 102);
-    color: black;
+  font-size: 19px;
+  height: 50px;
+  width: 65%;
+  margin: 7px;
+  border-radius: 6px;
+  outline: none;
+  background-color: rgb(148, 65, 226);
+  border: 2px solid rgb(67, 29, 102);
+  color: black;
 }
 .input::placeholder {
-    font-size: 17px;
-    color: rgb(71, 67, 67);
+  font-size: 17px;
+  color: rgb(71, 67, 67);
 }
 .button {
-    cursor: pointer;
-    background-color: rgb(107, 10, 70);
-    border: 2px solid rgb(73, 11, 49);
-    border-radius: 5px;
-    width: 30%;
-    height: 58px;
+  cursor: pointer;
+  background-color: rgb(107, 10, 70);
+  border: 2px solid rgb(73, 11, 49);
+  border-radius: 5px;
+  width: 25%;
+  height: 48px;
 }
