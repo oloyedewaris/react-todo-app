@@ -25,7 +25,12 @@ class Todo extends React.Component {
 
   addItem = () => {
     const newItem = this.state.currentItem;
-    if (newItem.text !== "") {
+    let newArray = [];
+    // let isEmpty = false;
+    newArray = [...newItem.text];
+    let isEmpty = newArray.every((letter) => letter === " ");
+    console.log(isEmpty);
+    if (newItem.text !== "" && !isEmpty) {
       const addedItem = [...this.state.items, newItem];
       this.setState({
         items: addedItem,
