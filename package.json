@@ -11,12 +11,10 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "node server.js",
-    "react": "react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "npm install && npm run build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
